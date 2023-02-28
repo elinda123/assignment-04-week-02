@@ -31,14 +31,14 @@ footer{
     height: 50px;
     color: white;
 }
-.two{
+.one{
     height: 300px;
 }
-.three{
+.two{
     background-color: #E5E7EB;
     height: 300px;
 }
-.four{
+.three{
     height: 200px;
     display: flex;
 }
