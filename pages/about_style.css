@@ -172,6 +172,10 @@
         width: 2rem;
     }
 
+    .header__logoName {
+        display: none;
+    }
+
     .whoWe {
         display: block;
         position: relative;
@@ -197,5 +201,12 @@
 
     .whoWe__desc * {
         text-align: center;
+        word-spacing: 2px;
+    }
+}
+
+@media (max-width: 490px) {
+    .whoWe__img {
+        width: auto;
     }
 }

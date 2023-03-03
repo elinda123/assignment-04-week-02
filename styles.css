@@ -203,6 +203,10 @@
         width: 2rem;
     }
 
+    .header__logoName {
+        display: none;
+    }
+
     .section--one {
         display: block;
         position: relative;
@@ -237,5 +241,11 @@
 
     .call-to-action {
         margin-inline: 1em;
+    }
+}
+
+@media (max-width: 400px) {
+    .section__img {
+        width: auto;
     }
 }

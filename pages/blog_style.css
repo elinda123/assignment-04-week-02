@@ -135,6 +135,10 @@ img {
     .header__logo {
         width: 2rem;
     }
+    
+    .header__logoName {
+        display: none;
+    }
 
     .story {
         flex-direction: column;
