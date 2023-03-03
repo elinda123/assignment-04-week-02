@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500&family=Open+Sans:wght@400;600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +6,7 @@
     box-sizing: border-box;
 }
 
-
+/* Header */
 .header {
     display: flex;
     justify-content: space-around;
@@ -45,9 +43,18 @@
     text-shadow: 2px 2px 5px #E5E7EB, -2px -2px 5px #E5E7EB;
 }
 
-/* Section one */
+/* The big picture at the top */
+.topPicture {
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+    object-position: 0 30%;
+}
 
-.section--one {
+/* Who are we section */
+.whoWe {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -55,21 +62,21 @@
     padding: 5rem 10rem;
 }
 
-.section__img {
+.whoWe__img {
     width: 40%;
     max-height: 25rem;
     object-fit: cover;
     object-position: 0 65%;
 }
 
-.section__desc,
-.section__desc * {
+.whoWe__desc,
+.whoWe__desc * {
     text-align: left;
     color: white;
     margin-block: 1em;
 }
 
-.section__desc {
+.whoWe__desc {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -78,12 +85,12 @@
 }
 
 
-.section__title {
+.whoWe__title {
     font-size: 48px;
     font-weight: extra-bold;
 }
 
-.section__btn {
+.whoWe__btn {
     background-color: #3882F6;
     color: white;
     border: none;
@@ -94,12 +101,22 @@
     text-align: center;
 }
 
-/* Second section */
-.section--two {
+/* What we value section */
+
+.ouValues {
     margin-block: 5em;
 }
 
-.section--two .section__text {
+.ourValues .ourValues__text {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.ourValues {
+    margin-block: 5em;
+}
+
+.ourValues .ourValues__text {
     font-size: 2em;
     margin-bottom: 2em;
 }
@@ -124,55 +141,6 @@
     object-fit: cover;
 }
 
-
-/* Third section */
-
-.quote {
-    background-color: #E5E7EB;
-    font-weight: light-italic;
-    font-size: 36px;
-    padding-block: 2em;
-    padding-inline: 5em;
-    color: rgb(61, 60, 60);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-/* Fourth section */
-
-.call-to-action {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2em;
-    border-radius: 1em;
-    background-color: #3882F6;
-    color: white;
-    margin-block: 4em;
-    margin-inline: 15em;
-}
-.call-to-action > * {
-    margin-block: .5em;
-}
-
-.call-to-action__text * {
-    text-align: left;
-}
-
-.call-to-action__btn {
-    background: none;
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    padding-inline: 1em;
-    padding-block: .5em;
-    font-weight: 700;
-}
-
 /* Footer */
 .footer {
     position: relative;
@@ -188,6 +156,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 @media (max-width: 800px) {
 
@@ -207,14 +176,14 @@
         display: none;
     }
 
-    .section--one {
+    .whoWe {
         display: block;
         position: relative;
         background-color: #1f293795;
         padding-inline: .2em;
     }
 
-    .section__img {
+    .whoWe__img {
         position: absolute;
         top: 0;
         left: 0;
@@ -223,29 +192,21 @@
         z-index: -1;
     }
 
-    .section__desc {
+    .whoWe__desc {
         min-height: auto;
         width: auto;
         align-items: center;
-        justify-content: space-between; 
+        justify-content: space-between;
     }
 
-    .section__desc * {
+    .whoWe__desc * {
         text-align: center;
-    }
-
-    .quote {
-        font-size: 1.5rem;
-        padding: .2em;
-    }
-
-    .call-to-action {
-        margin-inline: 1em;
+        word-spacing: 2px;
     }
 }
 
-@media (max-width: 400px) {
-    .section__img {
+@media (max-width: 490px) {
+    .whoWe__img {
         width: auto;
     }
 }
