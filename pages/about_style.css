@@ -132,7 +132,11 @@
 
 .row-of-boxes__column {
     width: 8rem;
-    margin-inline: 2em;
+    margin-inline: 4em;
+}
+
+.row-of-boxes__column:hover {
+    transform: scale(1.2);
 }
 
 .row-of-boxes__picture {
@@ -204,6 +208,15 @@
     .whoWe__desc * {
         text-align: center;
         word-spacing: 2px;
+    }
+
+    .row-of-boxes__column {
+        width: 8rem;
+        margin-inline: 2em;
+    }
+    
+    .row-of-boxes__column:hover {
+        transform: none;
     }
 }
 

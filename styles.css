@@ -113,7 +113,11 @@
 
 .row-of-boxes__column {
     width: 8rem;
-    margin-inline: 2em;
+    margin-inline: 4em;
+}
+
+.row-of-boxes__column:hover {
+    transform: scale(1.2);
 }
 
 .row-of-boxes__picture {
@@ -232,6 +236,15 @@
 
     .section__desc * {
         text-align: center;
+    }
+
+    .row-of-boxes__column {
+        width: 8rem;
+        margin-inline: 2em;
+    }
+    
+    .row-of-boxes__column:hover {
+        transform: none;
     }
 
     .quote {
