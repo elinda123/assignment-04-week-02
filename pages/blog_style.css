@@ -67,6 +67,8 @@
 .story {
     display: flex;
     padding: 2em 1em;
+    justify-content: center;
+    align-items: center;
 }
 
 .story__img {
@@ -148,6 +150,7 @@ img {
 
     .story__descContainer {
         max-width: 100%;
+        
     }
 
     .story__img {
