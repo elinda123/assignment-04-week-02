@@ -132,7 +132,8 @@
 
 .row-of-boxes__column {
     width: 8rem;
-    margin-inline: 4em;
+    /* margin-inline: 4em; */
+    margin-inline: 5vw;
 }
 
 .row-of-boxes__column:hover {
