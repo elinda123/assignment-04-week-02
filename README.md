@@ -23,7 +23,7 @@ Live site : https://juniperfawn.github.io/assignment-04-week-02/
 Check out Nomad Voyager Project [here](https://github.com/juniperfawn/assignment-04-week-02)
 
 ### Sample
-![](./images/index_01.jpg)
+![](./design-refs/index.png)
 
 ## Group
 ### Members
