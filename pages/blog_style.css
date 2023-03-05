@@ -99,13 +99,9 @@
     text-align: center;
 }
 
-
 img {
     width: 100px;
 }
-
-
-
 
 /* Footer */
 .footer {
@@ -122,7 +118,6 @@ img {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 @media (max-width: 600px) {
 

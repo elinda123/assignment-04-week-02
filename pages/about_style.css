@@ -86,7 +86,6 @@
     width: 45%;
 }
 
-
 .whoWe__title {
     font-size: 48px;
     font-weight: extra-bold;
@@ -104,7 +103,6 @@
 }
 
 /* What we value section */
-
 .ouValues {
     margin-block: 5em;
 }
@@ -132,7 +130,6 @@
 
 .row-of-boxes__column {
     width: 8rem;
-    /* margin-inline: 4em; */
     margin-inline: 5vw;
 }
 
@@ -163,7 +160,6 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 @media (max-width: 800px) {
 
